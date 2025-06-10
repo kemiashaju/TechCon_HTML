@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About TechCon 2024</title>
+</head>
+<body>
+  <header>
+    <h1>About TechCon 2024</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>Our History</h2>
+      <p>TechCon began in 2010 as a small gathering of software engineers and tech enthusiasts in Lagos. Over the years, it has grown into a global event attracting speakers and attendees from around the world, covering cutting-edge topics like AI, blockchain, and cloud computing.</p>
+      <img src="images/techcon-history.jpg" alt="Audience at the first TechCon in 2010" width="600" />
+    </article>
+
+    <article>
+      <h2>Our Mission</h2>
+      <p>TechCon’s mission is to empower innovation by connecting minds, tools, and opportunities. We believe that technology is a driving force for global development and inclusion, and we are committed to creating a platform that fosters growth, learning, and collaboration.</p>
+      <img src="images/mission-icon.png" alt="Icon symbolizing growth and collaboration" width="100" />
+    </article>
+
+    <article>
+      <h2>Notable Past Speakers</h2>
+      <section>
+        <h3>Dr. Ada Oke</h3>
+        <img src="images/speakers/ada-oke.jpg" alt="Dr. Ada Oke, AI specialist" width="200" />
+        <p>Dr. Ada Oke, a leading figure in artificial intelligence, shared insights on ethical AI development and responsible innovation at TechCon 2021.</p>
+      </section>
+      <section>
+        <h3>Tomilola Alabi</h3>
+        <img src="images/speakers/tomilola-alabi.jpg" alt="Tomilola Alabi, Blockchain entrepreneur" width="200" />
+        <p>Tomilola spoke in 2022 about decentralized technologies and their role in shaping financial inclusion across Africa.</p>
+      </section>
+      <section>
+        <h3>Raj Patel</h3>
+        <img src="images/speakers/raj-patel.jpg" alt="Raj Patel, Cloud computing expert" width="200" />
+        <p>At TechCon 2023, Raj delivered a keynote on scalable infrastructure and the future of cloud services for startups.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> TechCon. All rights reserved. <strong>Copyright.</strong></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
